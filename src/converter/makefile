@@ -1,5 +1,7 @@
-INCLUDE= -I/opt/local/include
-LIBPATH= -L/opt/local/lib
+# Modified makefile for 'convert' binary (MacOS)
+
+INCLUDE= -I/usr/local/opt/opencv@3/include
+LIBPATH= -L/usr/local/opt/opencv@3/lib
 CVLIBS = -lopencv_core -lopencv_highgui -lopencv_imgcodecs
 FLAGS  = -O3 -Wno-unused-function
 DIRBIN = ../../bin
