@@ -1,12 +1,18 @@
+#!/bin/bash
+#
+# Script for running full SPF pipeline
+
+# Config path prefix
 DIRCNF=./setting/conf
+
+# Output path prefix
 DIROUT=./output/data
+
+# Directory containing executables
 DIRBIN=./bin
 
-## If you'd like to skip some of the following steps,
-## comment out the steps you'd like to skip by attaching
-## '#' symbols to the heads of the corresponding sentences
+# Run pipeline
 ${DIRBIN}/spf-convert ${DIRCNF}-convert.txt ${DIROUT} 
 ${DIRBIN}/spf-detect  ${DIRCNF}-detect.txt  ${DIROUT}
 ${DIRBIN}/spf-track   ${DIRCNF}-track.txt   ${DIROUT}
 ${DIRBIN}/spf-view    ${DIRCNF}-view.txt    ${DIROUT} ${DIROUT}.trk
-
