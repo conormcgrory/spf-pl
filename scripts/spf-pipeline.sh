@@ -3,7 +3,7 @@
 # Script for running full SPF pipeline
 
 # Config path prefix
-DIRCNF=./setting/conf
+DIRCNF=./setting_hillman/conf
 
 # Output path prefix
 DIROUT=./output/data

@@ -1,0 +1,8 @@
+prefix:/Users/cmcgrory/paninski_lab/worm/spf/data/med_hillman_8/image
+imtype:tif
+number:1,1,1
+imsize:495,457,126,100
+aspect:1.0
+sbmean:1
+median:1,1,1
+inform:1
